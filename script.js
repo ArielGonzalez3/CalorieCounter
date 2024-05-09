@@ -24,5 +24,5 @@ function isInvalidInput(str) {
 // console.log(isInvalidInput("10"));
 
 function addEntry(){
-  
-}  
+  let targetId = "#" + entryDropdown.value;
+} 
